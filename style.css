@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #B4C6A6;
+}
+div{
+    overflow: auto;
+}
+nav>ul{
+    background-color: #66806A;
+    padding: 15px;
+}
+nav>ul>li{
+    display: inline;
+}
+nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+nav>ul>li>a:hover{
+    background-color: #B4C6A6;
+    color: black;
+    cursor: pointer;
+}
+.main-div{
+    text-align: center;
+    line-height: 3;
+    color:black;
+    background-color: #B4C6A6;
+}
+.main-text{
+    color:olive;
+    padding-bottom: 5px;
+}
+.main-div>.fab{
+    margin-inline: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fab:hover{
+    color: olive;
+}
+.animate{
+    color: olive;
+    animation: fade 1s infinite;
+}
+@keyframes fade{
+    0%{
+        color:black
+    }
+    50%{
+        color:#B4C6A6
+    }
+    100%{
+        color: black;
+    }
+}
+.mycontainer{
+    width: 100%;
+    margin: auto;
+    padding: 10px 50px 100px 50px;
+    background-color:#B4C6A6;
+    
+}
+.content{
+    width: 100%;
+    padding-top: 30px ;
+ 
+}
+
+.column-25,.column-50,.column-75,.column-100{
+    float: left;
+    padding: 10px;
+}
+.column-25{
+    width: 25%;
+
+}
+
+.column-50{
+    width: 50%;
+}
+.column-75{
+    width: 75%;
+}
+.column-100{
+    width: 100%;
+}
+
+img{
+    border: 3px solid olive;
+    border-radius: 2px;
+    
+}
+img:hover{
+    cursor: pointer;
+}
+button{
+    background-color: olive;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    float: right;
+    width: 100px;
+    margin: 5px;
+    padding: 5px ;
+    border-radius: 2px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #B4C6A6;
+    color: olive;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.progress{
+    width: 75%;
+    margin: 10px;
+}
+i{
+    margin: 5px;
+}
+footer{
+    background-color:#66806A;
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+    text-align: center;
+}
+.footer-element{
+    float: left;
+    width: 50%;
+}
+.footer-title{
+    color: black;
+    display: inline;
+}
