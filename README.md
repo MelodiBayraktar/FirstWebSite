@@ -1,5 +1,5 @@
 # FirstWebSite
-## This project is my first project with Html and Css
+## This project was my first project with Html and Css. I decided to share it on my Github.
 
 ### Laptop 
 https://user-images.githubusercontent.com/101207246/187044196-4fc535d9-c04a-4cf7-ab27-11112c022e7d.mp4
